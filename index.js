@@ -1,10 +1,9 @@
-var
-  path = require('path'),
-  http = require('http'),
-  paperboy = require('paperboy'),
+var path = require('path'),
+		http = require('http'),
+		paperboy = require('paperboy'),
 
-  PORT = 3000,
-  WEBROOT = path.join(path.dirname(__filename), 'public');
+		PORT = 3000,
+		WEBROOT = path.join(path.dirname(__filename), 'public');
 
 http.createServer(function(req, res) {
   var ip = req.connection.remoteAddress;
