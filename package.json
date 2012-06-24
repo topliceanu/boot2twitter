@@ -1,0 +1,14 @@
+{
+  "author": "alexandru topliceanu <alexandru.topliceanu@gmail.com>",
+  "name": "mozhack",
+  "description": "hack app for boot to gecko",
+  "version": "0.0.0",
+  "dependencies": {
+     "paperboy": "~0.0.5"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
