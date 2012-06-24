@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "name": "Boot2Twitter",
+  "description": "Simple app to keep track on Boot to Gecko buzz on twitter",
+  "icons": {
+    "16": "/img/moz-ico-16x16.png",
+    "48": "/img/moz-ico-48x48.png",
+    "128": "/img/moz-ico-128x128.png"
+  },
+  "developer": {
+    "name": "Alexandru Topliceanu",
+    "url": "alexandrutopliceanu@gmail.com"
+  },
+  "installs_allowed_from": ["*"],
+  "locales": {},
+  "default_locale": "en"
+}

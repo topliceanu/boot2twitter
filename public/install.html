@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Boot to Twitter</title>
+
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/bootstrap-responsive.css" />
+
+		<script type="text/javascript">
+			function installApp() {	
+				try {
+					var request = navigator.mozApps.install("/manifest.webapp");  
+					request.onsuccess = function () {
+						document.write('<h1>Successfully installed app</h1>');
+					}
+					request.onerror = function (err) {
+						document.write(err);
+					}
+				}
+				catch (ex) {
+					console.log('error installing app ', ex);
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class="row-fluid">
+			<div id="install" onclick="installApp()" class="btn"> Install Application </div>
+		</div>
+	</body>
+</html>
